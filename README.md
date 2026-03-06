@@ -42,31 +42,6 @@ These returns are used for volatility estimation.
 
 ---
 
-Project Structure
-
-GARCHVolatilityProject
-│
-├── data
-│   ├── raw
-│   └── processed
-│
-├── notebooks
-│   ├── 01_data_collection.ipynb
-│   ├── 02_volatility_stylized_facts.ipynb
-│   ├── 03_historical_volatility_benchmark.ipynb
-│   ├── 04_garch_modeling_with_arch.ipynb
-│   ├── 05_garch_from_scratch_mle.ipynb
-│   └── 06_multistep_forecasting_backtesting.ipynb
-│
-├── src
-│   ├── 
-│   └──
-│
-├── main.py
-└── README.md
-
----
-
 Research Workflow
 
 1. Data Pipeline
@@ -176,3 +151,4 @@ pip install -r requirements.txt
 Motivation
 
 This project was built as part of a learning journey into quantitative finance and volatility modeling. The focus is not only on using models but also understanding the mathematics and estimation methods behind them.
+
